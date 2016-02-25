@@ -5,8 +5,7 @@
         background: #efefef;
         background-size: cover;
         font-family: "Lucida Grande",Arial,Verdana,sans-serif;
-        width: 100%;
-        height: 100%;
+        position: static;
         color: #002F2F;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -22,16 +21,16 @@
         padding-left: 100px;
         padding-top: 200px;
         position: absolute;
+        width: 100%;
+        height: 110%;
         z-index: 10;
     }
 
     #container{
-        position: relative;
     }
 
     #construction{
-/*        width: 100%;
-        height: 110%;*/
+        z-index: -1;
     }
 
 
