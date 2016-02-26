@@ -1,11 +1,9 @@
-    
-
-
     body {
         background: #efefef;
         background-size: cover;
+
         font-family: "Lucida Grande",Arial,Verdana,sans-serif;
-        position: static;
+        /*position: static;*/
         color: #002F2F;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -18,35 +16,40 @@
         font-size: 18px;
     }
 
-    .navbar-text > a {
-        color: inherit; 
-        padding-left: 40px;
-        text-decoration: none;
+    #container{
+        position: relative;
     }
 
-    #header{
+    #bg {
+      min-height: 100%;
+      min-width: 1024px;
+        
+      width: 100%;
+      height: auto;
+        
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    @media screen and (max-width: 1024px) { 
+      #bg {
+        left: 50%;
+        margin-left: -512px;
+      }
+    }
+
+
+    #soon{
         padding-left: 100px;
         padding-top: 200px;
-        position: absolute;
         width: 100%;
         height: 100%;
         z-index: 10;
-    }
-
-    #soon{
         color: white;
     }
-
-    #container{
-       
-    }
-
-    #construction{
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-    }
-
+    
 
     #twitter{
         color: #55acee;
@@ -62,7 +65,25 @@
         color: #0077b5;
     }
 
-    .links{
-        padding-left: 6px;
+
+    .social_link:hover{
+        font-size: 4em;
+    }
+
+
+    #foot-links{
+        position: fixed;
+        bottom: 30px;
+        left: 75px;
+        
+    }
+
+    #links{
+       display: inline;
+    }   
+
+
+    .fa{
+        padding-left: 20px; 
     }
 
