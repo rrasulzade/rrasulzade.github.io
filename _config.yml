@@ -1,0 +1,8 @@
+title: Rasul Rasulzade
+description: 
+google_analytics: UA-74317310-1
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
