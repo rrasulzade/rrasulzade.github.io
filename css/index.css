@@ -87,3 +87,16 @@
         padding-left: 20px; 
     }
 
+
+    iframe {
+        margin-left: 400px;
+        border: 1px solid black;
+        width: 1000px;
+        height: 500px;
+    }
+
+    .output {
+        background: #eee;
+    }
+
+
